@@ -1,0 +1,9 @@
+.popup__image-header {
+  position: absolute;
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  bottom: -20px;
+}

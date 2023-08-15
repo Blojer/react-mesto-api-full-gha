@@ -1,0 +1,13 @@
+.login-form__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 15px;
+}
+
+.login-form__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

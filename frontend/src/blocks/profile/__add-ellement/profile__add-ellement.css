@@ -1,0 +1,24 @@
+.profile__add-ellement {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  background-color: #000;
+  padding: 0;
+  background-image: url(../../../images/add-ellement.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  transition: opacity 0.3s linear;
+}
+
+.profile__add-ellement:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .profile__add-ellement {
+    width: 282px;
+    margin: 36px auto 0;
+  }
+}

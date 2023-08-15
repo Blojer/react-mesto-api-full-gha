@@ -1,0 +1,12 @@
+.place__image {
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+  object-position: center top;
+  background-color: #000;
+  color: #fff;
+}
+
+.place__image:hover {
+  cursor: pointer;
+}

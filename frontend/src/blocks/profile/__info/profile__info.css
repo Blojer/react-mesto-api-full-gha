@@ -1,0 +1,15 @@
+.profile__info {
+  font-style: normal;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .profile__info {
+    padding-top: 25px;
+    gap: 10px;
+  }
+}
