@@ -18,7 +18,7 @@ const NotFoundError = require('./errors/not-found-err');
 const { PORT = 4000, DB_CONN = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:3000', credentials: true, maxAge: 60 }));
+app.use(cors({ origin: 'http://blojer.nomoreparties.co', credentials: true, maxAge: 60 }));
 
 app.use(express.json());
 app.use(cookieParser());
