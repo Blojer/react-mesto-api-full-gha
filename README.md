@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/Blojer/react-mesto-api-full-gha
 
-## Ссылки на проект
+## Ссылки на проек
 
-IP-адрес x.x.x.x
+IP-адрес 51.250.81.45
 
-Frontend https://...
+Frontend https://blojer.nomoreparties.co/
 
-Backend https://...
+Backend https://api.blojer.nomoreparties.co/
