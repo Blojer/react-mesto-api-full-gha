@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://api.blojer.nomoreparties.co';
+export const BASE_URL = 'https://api.blojer.nomoreparties.co';
 
 const checkResponse = res => {
   return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);

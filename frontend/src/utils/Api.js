@@ -88,7 +88,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'http://api.blojer.nomoreparties.co',
+  baseUrl: 'https://api.blojer.nomoreparties.co',
   headers: {
     authorization: 'ae3dc799-cc96-4703-a737-9448cf4b90b2',
     'Content-Type': 'application/json'
