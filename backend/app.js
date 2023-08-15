@@ -15,7 +15,7 @@ const auth = require('./middlewares/auth');
 const errorHandler = require('./middlewares/error-handler');
 const NotFoundError = require('./errors/not-found-err');
 
-const { PORT, DB_CONN } = process.env;
+const { PORT, DB_CONN = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 
 const app = express();
 app.use(cors({ origin: 'http://localhost:3000', credentials: true, maxAge: 60 }));
